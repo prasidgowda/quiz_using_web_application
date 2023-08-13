@@ -1,0 +1,119 @@
+body {
+    /* background-color: rgb(24, 22, 24); */
+    background-image: url('redb.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.button{
+    background-color:rgb(11, 10, 10);
+    border: 2px solid rgb(91, 215, 194);
+    color:red;
+    width:100px;
+    height:30px;
+    padding:15px 52px;
+    text-align: center;
+    text-decoration:none ;
+    font-size: x-large;
+    display: block;
+    font-weight: 26px;
+    margin:50px 162px;
+    border-radius: 30px;
+    font-family: monospace;
+    box-shadow: 0 0 20px aqua;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(35, 189, 187);
+    color:white;
+}
+.menu{
+    width:550px;
+    height:350px;
+    margin: 20px auto;
+    background-image: url('qui.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+   
+}
+.container{
+    width:550px;
+    margin:0 auto;
+    overflow: auto ;
+    font-size: xx-large;
+    color:rgb(48, 214, 223);
+    
+}
+.container #instruction{
+    width:100%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+a.start{
+    display: inline-block;
+    color:#c22a2a;
+    border:3px solid aqua;
+    border-radius: 30px;
+    padding:6px 13px;
+    text-align: center;
+    font-family: monospace;
+    box-shadow: 0 0 10px aqua;
+    cursor: pointer;
+    text-decoration:none;
+}
+a.start:hover{
+    background-color: #000;
+    color:red;
+}
+li{
+    list-style-type: none;
+}
+.current{
+    
+    padding:10px;
+    background:#f4f4f4;
+    border:#000 dotted 1px;
+    margin:20px 0 10px 0;
+    background-color:black;
+    color:aqua;
+}
+.container #p{
+    text-align:center;
+    color:red;
+}
+.container #qnnum{
+    place-items: center;
+  
+    width:400px;
+}
+.container #qn,#qt,#c1,#c2,#c3,#c4,#cc{
+    border-radius: 10px;
+}
+.container #sbmtBtn{
+    background-color: black;
+            color: white;
+            padding: 10px 20px;
+            font-family: monospace;
+            font-size: 20px;
+            border: 2px solid aqua;
+            border-radius: 30px;
+            box-shadow: 0 0 10px aqua ;
+            cursor: pointer;
+}
+.container #sbmitBtn:hover {
+    background-color: white;
+    color: black;
+}
+.container #viewScoreBtn,.container #hideScoreBtn{
+   width:100px;
+   height:20px;
+   background-color: black;
+   color:white;
+   border: 2px solid aqua;
+   border-radius: 30px;
+   box-shadow: 0 0 10px aqua ;
+   cursor: pointer;
+}
